@@ -7,10 +7,10 @@ node_js:
   - 6.2.2
 
 services:
-  -mongodb
+  - mongodb
 
 before_install:
-  sudo apt-get update -qq
+  - sudo apt-get update -qq
 
 install:
   - npm install
