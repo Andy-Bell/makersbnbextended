@@ -4,7 +4,7 @@ notifications:
 language: node_js
 
 node_js:
-  - 6.x
+  - 6.2.2
 
 services:
   -mongodb
