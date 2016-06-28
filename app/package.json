@@ -16,7 +16,8 @@
     "serve-favicon": "~2.2.1",
     "mongodb": "^1.4.4",
     "monk": "^1.0.1",
-    "jasmine": "^2.4.1",
-    "coveralls": "2.11.9"
+    "coveralls": "2.11.9",
+    "mocha": "2.5.3",
+    "chai": "3.5.0"
   }
 }
