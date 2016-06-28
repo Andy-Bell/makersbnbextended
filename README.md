@@ -1,4 +1,6 @@
 #Maker BnB project
+[![Build Status](https://travis-ci.org/Andy-Bell/makersbnb.svg?branch=master)](https://travis-ci.org/Andy-Bell/makersbnb) [![Coverage Status](https://coveralls.io/repos/github/Andy-Bell/makersbnb/badge.svg?branch=master)](https://coveralls.io/github/Andy-Bell/makersbnb?branch=master)
+
 Description of app goes here.
 
 ###Styleguide
