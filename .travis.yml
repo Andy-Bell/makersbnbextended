@@ -13,7 +13,7 @@ before_install:
   - sudo apt-get update -qq
 
 install:
-  - npm install
+  - npm install app/package.json
 
 script: 
   - jasmine
