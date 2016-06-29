@@ -8,12 +8,15 @@ router.get('/spaces/new', function(req, res, next) {
 router.get('/spaces', function(req, res, next) {
   var db = req.db;
   var spaces = db.get('spacecollection');
-  spaces.find({}).then((docs) => {console.log(docs);});
-  res.render('spaces');
+  spaces.find({}).then((docs) => {
+    res.render('spaces', {
+      "spaces" : docs[0].spacename
+    });
+  });
 });
 
 router.post('/spaces/new', function(req, res, next) {
-//some shit with db
+//some shit with db.
   res.redirect('/spaces');
 });
 

@@ -1,4 +1,4 @@
-NODE_ENV='test';
+process.env.NODE_ENV = "test";
 
 const Browser = require('zombie');
 const http = require('http');
