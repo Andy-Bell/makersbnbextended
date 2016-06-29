@@ -5,10 +5,14 @@ router.get('/spaces/new', function(req, res, next) {
   res.render('new');
 });
 
-// router.post('/spaces/new', function(req, res, next) {
-//   res.send('hi');
-//   redirect('/spaces')
-// });
+router.get('/spaces', function(req, res, next) {
+  res.send('hi stranger');
+});
+
+router.post('/spaces/new', function(req, res, next) {
+//some shit with db
+  res.redirect('/spaces');
+});
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

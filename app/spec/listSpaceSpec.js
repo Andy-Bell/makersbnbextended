@@ -1,30 +1,31 @@
-var expect = require('chai').expect;
-var chai = require('chai');
-var chaiHttp = require('chai-http');
-var chaiDom = require('chai-dom');
-var app  = require('../app');
+const Browser = require('zombie');
 
-chai.use(chaiHttp);
-chai.use(chaiDom);
+Browser.localhost('makersbnb', 3000);
 
-describe ('List a new space', function() {
 
-  it('Page has correct title', function(done) {
-    chai.request(app).get('/spaces/new').end(function(err, res) {
-      // expect(document.querySelector('h1')).not.to.be.empty
-      console.log(res);
-      expect(res.text.querySelector('#title')).to.contain.text('List');
-      done();
-    });
+describe('Listing Spaces', function() {
+
+  const browser = new Browser();
+
+  before(function(done) {
+    browser.visit('/spaces/new', done);
   });
 
-//  it('Navigate to spaces/new, fill in details, submit redirects to spaces', function(done) {
-//    chai.request(app).get('/spaces/new').end(function() {
-//      chai.request(app).post('/spaces/new').send({ name: 'testname'  })
-//      .end(function(err, res) {
-//        expect(res).to.have.status(200);
-//        done();
-//      })
-//    })
-//  });
+  describe('New Space', function() {
+
+    before(function(done) {
+      browser
+        .fill('spacename', 'Cozy loft')
+        .fill('description', 'So cozy!')
+        .fill('price_per_night', '3000')
+        .fill('available_from', '01/01/17')
+        .fill('available_to', '01/01/18')
+        .pressButton('List my Space', done);
+    });
+
+    it('after submit redirects to -book a space- page', function() {
+      browser.assert.url({ pathname: '/spaces' });
+    });
+
+  });
 });
