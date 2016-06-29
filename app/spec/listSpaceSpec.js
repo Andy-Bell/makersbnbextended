@@ -1,22 +1,21 @@
-process.env.NODE_ENV = "test";
+NODE_ENV='test';
 
 const Browser = require('zombie');
-
-Browser.localhost('makersbnb', 3000);
-
+const http = require('http');
+const app = require('../app');
 
 describe('Listing Spaces', function() {
 
-  const browser = new Browser();
-
   before(function(done) {
-    browser.visit('/spaces/new', done);
+    this.server = http.createServer(app).listen(3000);
+    this.browser = new Browser({site: 'http://localhost:3000'});
+    this.browser.visit('/spaces/new', done);
   });
 
   describe('New Space', function() {
 
     before(function(done) {
-      browser
+      this.browser
         .fill('spacename', 'Cozy loft')
         .fill('description', 'So cozy!')
         .fill('price_per_night', '3000')
@@ -26,12 +25,16 @@ describe('Listing Spaces', function() {
     });
 
     it('after submit redirects to -book a space- page', function() {
-      browser.assert.url({ pathname: '/spaces' });
+      this.browser.assert.url({ pathname: '/spaces' });
     });
 
     it('displays the newly entered space', function(){
-      browser.assert.text('ul li:nth-child(1)', 'Cozy loft');
+      this.browser.assert.text('ul li:nth-child(1)', 'Cozy loft');
     });
 
   });
+
+  after(function(done){
+      this.server.close(done);
+    });
 });

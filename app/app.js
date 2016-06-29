@@ -1,4 +1,5 @@
-process.env.NODE_ENV = process.env.NODE_ENV || "test";
+console.log(process.env.NODE_ENV);
+environment = process.env.NODE_ENV;
 
 var express = require('express');
 var path = require('path');
@@ -10,7 +11,7 @@ var bodyParser = require('body-parser');
 
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
+var db = monk('localhost:27017/makersbnb' + environment);
 
 
 var routes = require('./routes/index');
