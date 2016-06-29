@@ -1,15 +1,17 @@
 extends ../layout
 
 block content
-  h1 title
-  p Welcome to #{title}
+  h1 #{title}
   #form-head
     h3 Please enter your details
   form(action='/users/new', method='post')
     label(for='username') Username
-      input(type='text', id='username', name='username', value='username')
+      input(type='text', id='username', name='username')
+      br
     label(for='full-name') Name
-      input(type='text', id='full-name', name='full-name', value='username')
+      input(type='text', id='full-name', name='full-name')
+      br
     label(for='email') Email
-      input(type='text', id='email', name='email', value='email')
-    button(type='submit', id='submit', name='submit', value='submit')
+      input(type='text', id='email', name='email')
+      br
+    button(type='submit', id='submit', name='submit', value='submit') Submit

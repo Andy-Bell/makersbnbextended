@@ -7,8 +7,12 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET Sign Up page. */
-router.get('/users/new/', function(req, res) {
+router.get('/users/new', function(req, res) {
   res.render('users/new', { title: 'Sign Up' });
+});
+
+router.post('/users/new', function(req, res) {
+  res.redirect('/users');
 });
 
 module.exports = router;

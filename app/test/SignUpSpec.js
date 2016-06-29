@@ -22,4 +22,27 @@ describe("Sign Up Functionality", function(){
     browser.assert.element('button');
     browser.assert.attribute('button', 'value', 'submit');
   });
+
+  describe("expect a successful submission", function(){
+    before(function(done){
+      browser
+        .fill('email', 'test@test.com')
+        .fill('full-name', 'Test')
+        .fill('username', 'tester')
+        .pressButton('submit', done);
+    });
+
+    it('is successful', function(){
+      browser.assert.success();
+    });
+
+    it('presents welcome page', function(){
+
+    });
+
+
+  });
+
+
+
 });
