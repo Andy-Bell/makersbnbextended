@@ -8,10 +8,10 @@ var monk = require('monk');
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   var db = req.db;
-  var collection = db.get('users')
+  var users = db.get('users');
   var data = users.find({});
   data.on('success', function(docs){
-    res.render('users/index', { title: 'Welcome', data: docs});
+    res.render('users/index', { title: 'Welcome', data: docs.last});
   });
 });
 
@@ -22,7 +22,7 @@ router.get('/new', function(req, res) {
 
 router.post('/new', function(req, res) {
   var db = req.db;
-  var collection = db.get('users')
+  var users = db.get('users');
   var user = {
       username: req.body.username,
       fullName: req.body.fullName,
