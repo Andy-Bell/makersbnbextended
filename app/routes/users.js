@@ -1,14 +1,18 @@
 var express = require('express');
 var router = express.Router();
 var monk = require('monk');
-var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
-var users  = db.get('users');
+//var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
+//var users  = db.get('users');
 
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  // var data = users.find({});
-  res.render('users/index', { title: 'Welcome' });
+  var db = req.db;
+  var collection = db.get('users')
+  var data = users.find({});
+  data.on('success', function(docs){
+    res.render('users/index', { title: 'Welcome', data: docs});
+  });
 });
 
 
@@ -17,13 +21,15 @@ router.get('/new', function(req, res) {
 });
 
 router.post('/new', function(req, res) {
-  // var user = {
-  //   username: req.body.username,
-  //   fullName: req.body.fullName,
-  //   email: req.body.email
-  // };
-  //
-  // users.insert(user);
+  var db = req.db;
+  var collection = db.get('users')
+  var user = {
+      username: req.body.username,
+      fullName: req.body.fullName,
+      email: req.body.email
+  };
+
+  users.insert(user);
   res.redirect('/users');
 });
 
