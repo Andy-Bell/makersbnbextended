@@ -9,7 +9,7 @@ describe("Sign Up Functionality", function(){
     this.server = http.createServer(app).listen(3000);
     this.browser= new Browser({site: 'http://localhost:3000'});
   });
-  
+
   describe("checks the page",function(){
     before(function(done){
       this.browser.visit('/users/new', done);
@@ -22,7 +22,7 @@ describe("Sign Up Functionality", function(){
       this.browser.assert.attribute('form', 'method', 'post');
       this.browser.assert.attribute('form', 'action', '/users/new');
       this.browser.assert.element('#username');
-      this.browser.assert.element('#full-name');
+      this.browser.assert.element('#fullName');
       this.browser.assert.element('#email');
       this.browser.assert.element('button');
       this.browser.assert.attribute('button', 'value', 'submit');
@@ -37,7 +37,7 @@ describe("Sign Up Functionality", function(){
     before(function(done){
       this.browser
         .fill('email', 'test@test.com')
-        .fill('full-name', 'Test')
+        .fill('fullName', 'Test')
         .fill('username', 'tester')
         .pressButton('submit', done);
     });
@@ -47,7 +47,9 @@ describe("Sign Up Functionality", function(){
     });
 
     it('presents welcome page', function(){
-
+      this.browser.assert.text('#userDetails', 'test@test.com');
+      this.browser.assert.text('#userDetails', 'Test');
+      this.browser.assert.text('#userDetails', 'tester');
     });
 
 
