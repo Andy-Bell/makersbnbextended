@@ -1,0 +1,988 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'chai-webdriver-promised',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.6
+4 verbose install initial load of /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/package.json
+5 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/ansi-regex/package.json
+6 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/ansi-styles/package.json
+7 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/argparse/package.json
+8 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/asn1/package.json
+9 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/assert-plus/package.json
+10 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/async/package.json
+11 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/aws-sign2/package.json
+12 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/bl/package.json
+13 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/body-parser/package.json
+14 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/boom/package.json
+15 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/buffer-shims/package.json
+16 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/caseless/package.json
+17 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai/package.json
+18 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-dom/package.json
+19 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-http/package.json
+20 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver/package.json
+21 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/package.json
+22 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chalk/package.json
+23 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/coffee-script/package.json
+24 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/combined-stream/package.json
+25 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/commander/package.json
+26 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/cookie-parser/package.json
+27 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/core-util-is/package.json
+28 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/coveralls/package.json
+29 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/cryptiles/package.json
+30 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/dashdash/package.json
+31 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/debug/package.json
+32 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/delayed-stream/package.json
+33 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/ecc-jsbn/package.json
+34 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/escape-string-regexp/package.json
+35 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/esprima/package.json
+36 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/exit/package.json
+37 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/express/package.json
+38 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/extend/package.json
+39 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/extsprintf/package.json
+40 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/fileset/package.json
+41 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/forever-agent/package.json
+42 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/form-data/package.json
+43 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/gaze/package.json
+44 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/generate-function/package.json
+45 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/generate-object-property/package.json
+46 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/getpass/package.json
+47 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/glob/package.json
+48 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/graceful-readlink/package.json
+49 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/growl/package.json
+50 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/har-validator/package.json
+51 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/has-ansi/package.json
+52 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/hawk/package.json
+53 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/hoek/package.json
+54 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/http-signature/package.json
+55 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/inherits/package.json
+56 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/is-my-json-valid/package.json
+57 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/is-property/package.json
+58 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/is-typedarray/package.json
+59 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/isarray/package.json
+60 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/isstream/package.json
+61 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jade/package.json
+62 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine/package.json
+63 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-core/package.json
+64 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-growl-reporter/package.json
+65 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-node/package.json
+66 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-reporters/package.json
+67 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jodid25519/package.json
+68 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/js-yaml/package.json
+69 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jsbn/package.json
+70 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/json-schema/package.json
+71 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/json-stringify-safe/package.json
+72 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jsonpointer/package.json
+73 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jsprim/package.json
+74 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/lcov-parse/package.json
+75 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/log-driver/package.json
+76 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/lru-cache/package.json
+77 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mime-db/package.json
+78 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mime-types/package.json
+79 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/minimatch/package.json
+80 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/minimist/package.json
+81 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mkdirp/package.json
+82 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mocha/package.json
+83 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mongodb/package.json
+84 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/monk/package.json
+85 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/morgan/package.json
+86 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/node-uuid/package.json
+87 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/oauth-sign/package.json
+88 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/pinkie/package.json
+89 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/pinkie-promise/package.json
+90 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/process-nextick-args/package.json
+91 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/qs/package.json
+92 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/readable-stream/package.json
+93 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/request/package.json
+94 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/requirejs/package.json
+95 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/selenium-webdriver/package.json
+96 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/serve-favicon/package.json
+97 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/sigmund/package.json
+98 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/sntp/package.json
+99 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/sshpk/package.json
+100 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/string_decoder/package.json
+101 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/stringstream/package.json
+102 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/strip-ansi/package.json
+103 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/supports-color/package.json
+104 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/tough-cookie/package.json
+105 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/tunnel-agent/package.json
+106 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/tweetnacl/package.json
+107 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/underscore/package.json
+108 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/underscore.string/package.json
+109 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/util-deprecate/package.json
+110 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/verror/package.json
+111 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/walkdir/package.json
+112 verbose installManyTop reading scoped package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/xtend/package.json
+113 info package.json chai-dom@1.4.0 No license field.
+114 info package.json chai-http@3.0.0 No license field.
+115 info package.json exit@0.1.2 No license field.
+116 info package.json extsprintf@1.0.2 No license field.
+117 info package.json fileset@0.1.8 No license field.
+118 info package.json esprima@1.0.4 No license field.
+119 info package.json gaze@0.3.4 No license field.
+120 info package.json glob@3.2.11 license should be a valid SPDX license expression
+121 info package.json growl@1.7.0 No repository field.
+122 info package.json growl@1.7.0 No license field.
+123 info package.json jasmine-growl-reporter@0.0.3 No license field.
+124 info package.json jasmine-node@1.14.5 No license field.
+125 info package.json jasmine-reporters@1.0.2 No license field.
+126 info package.json js-yaml@3.0.1 license should be a valid SPDX license expression
+127 info package.json jsbn@0.1.0 license should be a valid SPDX license expression
+128 info package.json json-schema@0.2.2 No license field.
+129 info package.json lcov-parse@0.0.6 No license field.
+130 info package.json log-driver@1.2.4 No license field.
+131 info package.json minimatch@0.3.0 license should be a valid SPDX license expression
+132 info package.json mocha@2.5.3 No README data
+133 info package.json node-uuid@1.4.7 No license field.
+134 info package.json sntp@1.0.9 No license field.
+135 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+136 info package.json underscore@1.7.0 No license field.
+137 info package.json tweetnacl@0.13.3 license should be a valid SPDX license expression
+138 info package.json underscore.string@2.4.0 No license field.
+139 info package.json verror@1.3.6 No license field.
+140 info package.json monk@1.0.1 No license field.
+141 info package.json mongodb@1.4.40 No license field.
+142 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/package.json
+143 verbose install chai-webdriver-promised is installed as 4.0.3
+144 silly cache add args [ 'chai-webdriver-promised', null ]
+145 verbose cache add spec chai-webdriver-promised
+146 silly cache add parsed spec Result {
+146 silly cache add   raw: 'chai-webdriver-promised',
+146 silly cache add   scope: null,
+146 silly cache add   name: 'chai-webdriver-promised',
+146 silly cache add   rawSpec: '',
+146 silly cache add   spec: 'latest',
+146 silly cache add   type: 'tag' }
+147 silly addNamed chai-webdriver-promised@latest
+148 verbose addNamed "latest" is being treated as a dist-tag for chai-webdriver-promised
+149 info addNameTag [ 'chai-webdriver-promised', 'latest' ]
+150 silly mapToRegistry name chai-webdriver-promised
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'chai-webdriver-promised',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   name: 'chai-webdriver-promised',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/chai-webdriver-promised
+155 verbose addNameTag registry:https://registry.npmjs.org/chai-webdriver-promised not in flight; fetching
+156 verbose request uri https://registry.npmjs.org/chai-webdriver-promised
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 10:16:36 AM
+159 verbose request id 4777c02abddbf6ac
+160 verbose etag "CE1YFQB595NI30NA7CC0J7SSJ"
+161 http request GET https://registry.npmjs.org/chai-webdriver-promised
+162 http 304 https://registry.npmjs.org/chai-webdriver-promised
+163 verbose headers { date: 'Wed, 29 Jun 2016 09:16:38 GMT',
+163 verbose headers   via: '1.1 varnish',
+163 verbose headers   'cache-control': 'max-age=300',
+163 verbose headers   etag: '"CE1YFQB595NI30NA7CC0J7SSJ"',
+163 verbose headers   age: '0',
+163 verbose headers   connection: 'keep-alive',
+163 verbose headers   'x-served-by': 'cache-lhr6348-LHR',
+163 verbose headers   'x-cache': 'MISS',
+163 verbose headers   'x-cache-hits': '0',
+163 verbose headers   'x-timer': 'S1467191798.868491,VS0,VE188',
+163 verbose headers   vary: 'Accept-Encoding' }
+164 silly get cb [ 304,
+164 silly get   { date: 'Wed, 29 Jun 2016 09:16:38 GMT',
+164 silly get     via: '1.1 varnish',
+164 silly get     'cache-control': 'max-age=300',
+164 silly get     etag: '"CE1YFQB595NI30NA7CC0J7SSJ"',
+164 silly get     age: '0',
+164 silly get     connection: 'keep-alive',
+164 silly get     'x-served-by': 'cache-lhr6348-LHR',
+164 silly get     'x-cache': 'MISS',
+164 silly get     'x-cache-hits': '0',
+164 silly get     'x-timer': 'S1467191798.868491,VS0,VE188',
+164 silly get     vary: 'Accept-Encoding' } ]
+165 verbose etag https://registry.npmjs.org/chai-webdriver-promised from cache
+166 verbose get saving chai-webdriver-promised to /Users/Carlos/.npm/registry.npmjs.org/chai-webdriver-promised/.cache.json
+167 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+168 silly addNameTag next cb for chai-webdriver-promised with tag latest
+169 silly addNamed chai-webdriver-promised@4.0.3
+170 verbose addNamed "4.0.3" is a plain semver version for chai-webdriver-promised
+171 silly cache afterAdd chai-webdriver-promised@4.0.3
+172 verbose afterAdd /Users/Carlos/.npm/chai-webdriver-promised/4.0.3/package/package.json not in flight; writing
+173 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+174 verbose afterAdd /Users/Carlos/.npm/chai-webdriver-promised/4.0.3/package/package.json written
+175 silly install resolved [ { name: 'chai-webdriver-promised',
+175 silly install resolved     version: '4.0.3',
+175 silly install resolved     description: 'Build more expressive integration tests with some webdriver sugar for chai.js',
+175 silly install resolved     main: 'index.js',
+175 silly install resolved     homepage: 'https://b3nj4m.github.io/chai-webdriver',
+175 silly install resolved     scripts: { test: 'mocha -R spec spec/*.spec.js' },
+175 silly install resolved     repository:
+175 silly install resolved      { type: 'git',
+175 silly install resolved        url: 'git+https://github.com/b3nj4m/chai-webdriver.git' },
+175 silly install resolved     keywords: [ 'chai', 'webdriver', 'integration-tests', 'chai-plugin' ],
+175 silly install resolved     author: { name: 'Ben Robbins', email: 'ben.robbins@gmail.com' },
+175 silly install resolved     contributors: [ [Object] ],
+175 silly install resolved     license: 'MIT',
+175 silly install resolved     bugs: { url: 'https://github.com/b3nj4m/chai-webdriver/issues' },
+175 silly install resolved     peerDependencies: { 'selenium-webdriver': '2.x', chai: '1.x' },
+175 silly install resolved     dependencies: { q: '~1.1.2', 'webdriver-sizzle-promised': '~2.0.2' },
+175 silly install resolved     devDependencies:
+175 silly install resolved      { phantomjs: '^1.9.7-1',
+175 silly install resolved        mocha: '~2.0.1',
+175 silly install resolved        chai: '~1.10.0',
+175 silly install resolved        'selenium-webdriver': '~2.44.0' },
+175 silly install resolved     engines: { node: '>=0.10.0' },
+175 silly install resolved     _id: 'chai-webdriver-promised@4.0.3',
+175 silly install resolved     dist:
+175 silly install resolved      { shasum: '562030a9b05bb5505feb79f32cba5e543117cb06',
+175 silly install resolved        tarball: 'https://registry.npmjs.org/chai-webdriver-promised/-/chai-webdriver-promised-4.0.3.tgz' },
+175 silly install resolved     _from: 'chai-webdriver-promised@latest',
+175 silly install resolved     _npmVersion: '1.3.6',
+175 silly install resolved     _npmUser: { name: 'b3nj4m', email: 'ben.robbins@gmail.com' },
+175 silly install resolved     maintainers: [ [Object] ],
+175 silly install resolved     directories: {},
+175 silly install resolved     _shasum: '562030a9b05bb5505feb79f32cba5e543117cb06',
+175 silly install resolved     _resolved: 'https://registry.npmjs.org/chai-webdriver-promised/-/chai-webdriver-promised-4.0.3.tgz',
+175 silly install resolved     readme: 'ERROR: No README data found!' } ]
+176 info install chai-webdriver-promised@4.0.3 into /Users/Carlos/MakersAcademy/Week-6/makersbnb/app
+177 info installOne chai-webdriver-promised@4.0.3
+178 verbose installOne of chai-webdriver-promised to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app not in flight; installing
+179 verbose correctMkdir /Users/Carlos/.npm/_locks correctMkdir not in flight; initializing
+180 verbose lock using /Users/Carlos/.npm/_locks/chai-webdriver-promised-29fe26525d9c5729.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+181 silly install write writing chai-webdriver-promised 4.0.3 to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+182 verbose unbuild node_modules/chai-webdriver-promised
+183 info preuninstall chai-webdriver-promised@4.0.3
+184 info uninstall chai-webdriver-promised@4.0.3
+185 verbose unbuild rmStuff chai-webdriver-promised@4.0.3 from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules
+186 info postuninstall chai-webdriver-promised@4.0.3
+187 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised is being purged from base /Users/Carlos/MakersAcademy/Week-6/makersbnb/app
+188 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+189 silly vacuum-fs purging /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+190 silly vacuum-fs quitting because other entries in /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules
+191 verbose tar unpack /Users/Carlos/.npm/chai-webdriver-promised/4.0.3/package.tgz
+192 verbose tar unpacking to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+193 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised is being purged
+194 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+195 silly gunzTarPerm modes [ '755', '644' ]
+196 silly gunzTarPerm extractEntry package.json
+197 silly gunzTarPerm extractEntry .npmignore
+198 silly gunzTarPerm extractEntry README.md
+199 silly gunzTarPerm extractEntry LICENSE
+200 silly gunzTarPerm extractEntry index.js
+201 silly gunzTarPerm extractEntry phantomjsdriver.log
+202 silly gunzTarPerm extractEntry spec/suite.spec.js
+203 silly gunzTarPerm extractEntry spec/finnegan.html
+204 silly gunzTarPerm extractEntry spec/link.html
+205 verbose write writing to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/package.json
+206 info preinstall chai-webdriver-promised@4.0.3
+207 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/package.json
+208 silly prepareForInstallMany adding q@~1.1.2 from chai-webdriver-promised dependencies
+209 silly prepareForInstallMany adding webdriver-sizzle-promised@~2.0.2 from chai-webdriver-promised dependencies
+210 silly prepareForInstallMany adding chai@1.x from chai-webdriver-promised peerDependencies
+211 warn peerDependencies The peer dependency chai@1.x included from chai-webdriver-promised will no
+212 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+213 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+214 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/package.json
+215 silly cache add args [ 'q@~1.1.2', null ]
+216 verbose cache add spec q@~1.1.2
+217 silly cache add args [ 'webdriver-sizzle-promised@~2.0.2', null ]
+218 verbose cache add spec webdriver-sizzle-promised@~2.0.2
+219 silly cache add parsed spec Result {
+219 silly cache add   raw: 'q@~1.1.2',
+219 silly cache add   scope: null,
+219 silly cache add   name: 'q',
+219 silly cache add   rawSpec: '~1.1.2',
+219 silly cache add   spec: '>=1.1.2 <1.2.0',
+219 silly cache add   type: 'range' }
+220 silly addNamed q@>=1.1.2 <1.2.0
+221 verbose addNamed ">=1.1.2 <1.2.0" is a valid semver range for q
+222 silly addNameRange { name: 'q', range: '>=1.1.2 <1.2.0', hasData: false }
+223 silly mapToRegistry name q
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry data Result {
+226 silly mapToRegistry   raw: 'q',
+226 silly mapToRegistry   scope: null,
+226 silly mapToRegistry   name: 'q',
+226 silly mapToRegistry   rawSpec: '',
+226 silly mapToRegistry   spec: 'latest',
+226 silly mapToRegistry   type: 'tag' }
+227 silly mapToRegistry uri https://registry.npmjs.org/q
+228 verbose addNameRange registry:https://registry.npmjs.org/q not in flight; fetching
+229 silly cache add parsed spec Result {
+229 silly cache add   raw: 'webdriver-sizzle-promised@~2.0.2',
+229 silly cache add   scope: null,
+229 silly cache add   name: 'webdriver-sizzle-promised',
+229 silly cache add   rawSpec: '~2.0.2',
+229 silly cache add   spec: '>=2.0.2 <2.1.0',
+229 silly cache add   type: 'range' }
+230 silly addNamed webdriver-sizzle-promised@>=2.0.2 <2.1.0
+231 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for webdriver-sizzle-promised
+232 silly addNameRange { name: 'webdriver-sizzle-promised',
+232 silly addNameRange   range: '>=2.0.2 <2.1.0',
+232 silly addNameRange   hasData: false }
+233 silly mapToRegistry name webdriver-sizzle-promised
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'webdriver-sizzle-promised',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   name: 'webdriver-sizzle-promised',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npmjs.org/webdriver-sizzle-promised
+238 verbose addNameRange registry:https://registry.npmjs.org/webdriver-sizzle-promised not in flight; fetching
+239 verbose request uri https://registry.npmjs.org/webdriver-sizzle-promised
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 10:16:38 AM
+242 verbose etag "3GK9LD3HY5WGYBONWCJ4EFKD7"
+243 http request GET https://registry.npmjs.org/webdriver-sizzle-promised
+244 verbose request uri https://registry.npmjs.org/q
+245 verbose request no auth needed
+246 info attempt registry request try #1 at 10:16:38 AM
+247 verbose etag "98V5TKM118YYG8VD14SOKEZD4"
+248 http request GET https://registry.npmjs.org/q
+249 http 304 https://registry.npmjs.org/q
+250 verbose headers { date: 'Wed, 29 Jun 2016 09:16:39 GMT',
+250 verbose headers   via: '1.1 varnish',
+250 verbose headers   'cache-control': 'max-age=300',
+250 verbose headers   etag: '"98V5TKM118YYG8VD14SOKEZD4"',
+250 verbose headers   age: '16',
+250 verbose headers   connection: 'keep-alive',
+250 verbose headers   'x-served-by': 'cache-lhr6337-LHR',
+250 verbose headers   'x-cache': 'HIT',
+250 verbose headers   'x-cache-hits': '1',
+250 verbose headers   'x-timer': 'S1467191799.191441,VS0,VE0',
+250 verbose headers   vary: 'Accept-Encoding' }
+251 silly get cb [ 304,
+251 silly get   { date: 'Wed, 29 Jun 2016 09:16:39 GMT',
+251 silly get     via: '1.1 varnish',
+251 silly get     'cache-control': 'max-age=300',
+251 silly get     etag: '"98V5TKM118YYG8VD14SOKEZD4"',
+251 silly get     age: '16',
+251 silly get     connection: 'keep-alive',
+251 silly get     'x-served-by': 'cache-lhr6337-LHR',
+251 silly get     'x-cache': 'HIT',
+251 silly get     'x-cache-hits': '1',
+251 silly get     'x-timer': 'S1467191799.191441,VS0,VE0',
+251 silly get     vary: 'Accept-Encoding' } ]
+252 verbose etag https://registry.npmjs.org/q from cache
+253 verbose get saving q to /Users/Carlos/.npm/registry.npmjs.org/q/.cache.json
+254 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+255 silly addNameRange number 2 { name: 'q', range: '>=1.1.2 <1.2.0', hasData: true }
+256 silly addNameRange versions [ 'q',
+256 silly addNameRange   [ '0.0.0',
+256 silly addNameRange     '0.0.1',
+256 silly addNameRange     '0.0.2',
+256 silly addNameRange     '0.0.3',
+256 silly addNameRange     '0.1.0',
+256 silly addNameRange     '0.1.1',
+256 silly addNameRange     '0.1.2',
+256 silly addNameRange     '0.1.3',
+256 silly addNameRange     '0.1.4',
+256 silly addNameRange     '0.1.5',
+256 silly addNameRange     '0.1.6',
+256 silly addNameRange     '0.1.7',
+256 silly addNameRange     '0.1.8',
+256 silly addNameRange     '0.1.9',
+256 silly addNameRange     '0.2.0-rc1',
+256 silly addNameRange     '0.2.0',
+256 silly addNameRange     '0.2.1',
+256 silly addNameRange     '0.2.2',
+256 silly addNameRange     '0.2.3',
+256 silly addNameRange     '0.2.4',
+256 silly addNameRange     '0.2.5',
+256 silly addNameRange     '0.2.6',
+256 silly addNameRange     '0.2.7',
+256 silly addNameRange     '0.2.8',
+256 silly addNameRange     '0.2.9',
+256 silly addNameRange     '0.3.0',
+256 silly addNameRange     '0.2.10',
+256 silly addNameRange     '0.4.0',
+256 silly addNameRange     '0.4.1',
+256 silly addNameRange     '0.4.2',
+256 silly addNameRange     '0.4.4',
+256 silly addNameRange     '0.5.0',
+256 silly addNameRange     '0.5.1',
+256 silly addNameRange     '0.5.2',
+256 silly addNameRange     '0.5.3',
+256 silly addNameRange     '0.6.0',
+256 silly addNameRange     '0.7.0',
+256 silly addNameRange     '0.7.1',
+256 silly addNameRange     '0.7.2',
+256 silly addNameRange     '0.8.0',
+256 silly addNameRange     '0.8.1',
+256 silly addNameRange     '0.8.2',
+256 silly addNameRange     '0.8.3',
+256 silly addNameRange     '0.8.4',
+256 silly addNameRange     '0.8.5',
+256 silly addNameRange     '0.8.6',
+256 silly addNameRange     '0.8.7',
+256 silly addNameRange     '0.8.8',
+256 silly addNameRange     '0.8.9',
+256 silly addNameRange     '0.8.10',
+256 silly addNameRange     '0.8.11',
+256 silly addNameRange     '0.8.12',
+256 silly addNameRange     '0.9.0',
+256 silly addNameRange     '0.9.1',
+256 silly addNameRange     '0.9.2',
+256 silly addNameRange     '0.9.3',
+256 silly addNameRange     '0.9.4',
+256 silly addNameRange     '0.9.5',
+256 silly addNameRange     '0.9.6',
+256 silly addNameRange     '0.9.7',
+256 silly addNameRange     '1.0.0',
+256 silly addNameRange     '1.0.1',
+256 silly addNameRange     '2.0.0',
+256 silly addNameRange     '2.0.1',
+256 silly addNameRange     '2.0.2',
+256 silly addNameRange     '1.1.0',
+256 silly addNameRange     '1.1.1',
+256 silly addNameRange     '1.1.2',
+256 silly addNameRange     '2.0.3',
+256 silly addNameRange     '1.2.0',
+256 silly addNameRange     '1.2.1',
+256 silly addNameRange     '1.3.0',
+256 silly addNameRange     '1.4.0',
+256 silly addNameRange     '1.4.1' ] ]
+257 silly addNamed q@1.1.2
+258 verbose addNamed "1.1.2" is a plain semver version for q
+259 silly cache afterAdd q@1.1.2
+260 verbose afterAdd /Users/Carlos/.npm/q/1.1.2/package/package.json not in flight; writing
+261 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+262 verbose afterAdd /Users/Carlos/.npm/q/1.1.2/package/package.json written
+263 http 304 https://registry.npmjs.org/webdriver-sizzle-promised
+264 verbose headers { date: 'Wed, 29 Jun 2016 09:16:39 GMT',
+264 verbose headers   via: '1.1 varnish',
+264 verbose headers   'cache-control': 'max-age=300',
+264 verbose headers   etag: '"3GK9LD3HY5WGYBONWCJ4EFKD7"',
+264 verbose headers   age: '0',
+264 verbose headers   connection: 'keep-alive',
+264 verbose headers   'x-served-by': 'cache-lhr6348-LHR',
+264 verbose headers   'x-cache': 'MISS',
+264 verbose headers   'x-cache-hits': '0',
+264 verbose headers   'x-timer': 'S1467191799.173377,VS0,VE356',
+264 verbose headers   vary: 'Accept-Encoding' }
+265 silly get cb [ 304,
+265 silly get   { date: 'Wed, 29 Jun 2016 09:16:39 GMT',
+265 silly get     via: '1.1 varnish',
+265 silly get     'cache-control': 'max-age=300',
+265 silly get     etag: '"3GK9LD3HY5WGYBONWCJ4EFKD7"',
+265 silly get     age: '0',
+265 silly get     connection: 'keep-alive',
+265 silly get     'x-served-by': 'cache-lhr6348-LHR',
+265 silly get     'x-cache': 'MISS',
+265 silly get     'x-cache-hits': '0',
+265 silly get     'x-timer': 'S1467191799.173377,VS0,VE356',
+265 silly get     vary: 'Accept-Encoding' } ]
+266 verbose etag https://registry.npmjs.org/webdriver-sizzle-promised from cache
+267 verbose get saving webdriver-sizzle-promised to /Users/Carlos/.npm/registry.npmjs.org/webdriver-sizzle-promised/.cache.json
+268 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+269 silly addNameRange number 2 { name: 'webdriver-sizzle-promised',
+269 silly addNameRange   range: '>=2.0.2 <2.1.0',
+269 silly addNameRange   hasData: true }
+270 silly addNameRange versions [ 'webdriver-sizzle-promised',
+270 silly addNameRange   [ '1.0.0', '1.0.1', '2.0.0', '2.0.1', '2.0.2' ] ]
+271 silly addNamed webdriver-sizzle-promised@2.0.2
+272 verbose addNamed "2.0.2" is a plain semver version for webdriver-sizzle-promised
+273 silly cache afterAdd webdriver-sizzle-promised@2.0.2
+274 verbose afterAdd /Users/Carlos/.npm/webdriver-sizzle-promised/2.0.2/package/package.json not in flight; writing
+275 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+276 verbose afterAdd /Users/Carlos/.npm/webdriver-sizzle-promised/2.0.2/package/package.json written
+277 silly install resolved [ { name: 'q',
+277 silly install resolved     version: '1.1.2',
+277 silly install resolved     description: 'A library for promises (CommonJS/Promises/A,B,D)',
+277 silly install resolved     homepage: 'https://github.com/kriskowal/q',
+277 silly install resolved     author:
+277 silly install resolved      { name: 'Kris Kowal',
+277 silly install resolved        email: 'kris@cixar.com',
+277 silly install resolved        url: 'https://github.com/kriskowal' },
+277 silly install resolved     keywords:
+277 silly install resolved      [ 'q',
+277 silly install resolved        'promise',
+277 silly install resolved        'promises',
+277 silly install resolved        'promises-a',
+277 silly install resolved        'promises-aplus',
+277 silly install resolved        'deferred',
+277 silly install resolved        'future',
+277 silly install resolved        'async',
+277 silly install resolved        'flow control',
+277 silly install resolved        'fluent',
+277 silly install resolved        'browser',
+277 silly install resolved        'node' ],
+277 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+277 silly install resolved     bugs: { url: 'http://github.com/kriskowal/q/issues' },
+277 silly install resolved     license:
+277 silly install resolved      { type: 'MIT',
+277 silly install resolved        url: 'http://github.com/kriskowal/q/raw/master/LICENSE' },
+277 silly install resolved     main: 'q.js',
+277 silly install resolved     files: [ 'LICENSE', 'q.js', 'queue.js' ],
+277 silly install resolved     repository: { type: 'git', url: 'git://github.com/kriskowal/q.git' },
+277 silly install resolved     engines: { node: '>=0.6.0', teleport: '>=0.2.0' },
+277 silly install resolved     dependencies: {},
+277 silly install resolved     devDependencies:
+277 silly install resolved      { jshint: '~2.1.9',
+277 silly install resolved        cover: '*',
+277 silly install resolved        'jasmine-node': '1.11.0',
+277 silly install resolved        opener: '*',
+277 silly install resolved        'promises-aplus-tests': '1.x',
+277 silly install resolved        grunt: '~0.4.1',
+277 silly install resolved        'grunt-cli': '~0.1.9',
+277 silly install resolved        'grunt-contrib-uglify': '~0.2.2',
+277 silly install resolved        matcha: '~0.2.0' },
+277 silly install resolved     scripts:
+277 silly install resolved      { test: 'jasmine-node spec && promises-aplus-tests spec/aplus-adapter',
+277 silly install resolved        'test-browser': 'opener spec/q-spec.html',
+277 silly install resolved        benchmark: 'matcha',
+277 silly install resolved        lint: 'jshint q.js',
+277 silly install resolved        cover: 'cover run node_modules/jasmine-node/bin/jasmine-node spec && cover report html && opener cover_html/index.html',
+277 silly install resolved        minify: 'grunt',
+277 silly install resolved        prepublish: 'grunt' },
+277 silly install resolved     overlay: { teleport: [Object] },
+277 silly install resolved     directories: { test: './spec' },
+277 silly install resolved     gitHead: '3159ac47c46cb7e2200191736ca430a011615523',
+277 silly install resolved     _id: 'q@1.1.2',
+277 silly install resolved     _shasum: '6357e291206701d99f197ab84e57e8ad196f2a89',
+277 silly install resolved     _from: 'q@>=1.1.2 <1.2.0',
+277 silly install resolved     _npmVersion: '1.4.21',
+277 silly install resolved     _npmUser: { name: 'kriskowal', email: 'kris.kowal@cixar.com' },
+277 silly install resolved     maintainers: [ [Object], [Object] ],
+277 silly install resolved     dist:
+277 silly install resolved      { shasum: '6357e291206701d99f197ab84e57e8ad196f2a89',
+277 silly install resolved        tarball: 'https://registry.npmjs.org/q/-/q-1.1.2.tgz' },
+277 silly install resolved     _resolved: 'https://registry.npmjs.org/q/-/q-1.1.2.tgz',
+277 silly install resolved     readme: 'ERROR: No README data found!' },
+277 silly install resolved   { name: 'webdriver-sizzle-promised',
+277 silly install resolved     version: '2.0.2',
+277 silly install resolved     description: 'Locate a selenium-webdriver element by sizzle CSS selector',
+277 silly install resolved     author: { name: 'Ben Robbins', email: 'ben.robbins@gmail.com' },
+277 silly install resolved     contributors: [ [Object] ],
+277 silly install resolved     main: 'index.js',
+277 silly install resolved     repository:
+277 silly install resolved      { type: 'git',
+277 silly install resolved        url: 'git://github.com/b3nj4m/webdriver-sizzle.git' },
+277 silly install resolved     keywords: [ 'selenium', 'webdriver', 'sizzle', 'integration-tests' ],
+277 silly install resolved     homepage: 'https://b3nj4m.github.io/webdriver-sizzle',
+277 silly install resolved     bugs: { url: 'https://github.com/b3nj4m/webdriver-sizzle/issues' },
+277 silly install resolved     dependencies: { q: '~1.1.2', underscore: '~1.6.0' },
+277 silly install resolved     devDependencies:
+277 silly install resolved      { mocha: '~1.x.x',
+277 silly install resolved        'selenium-webdriver': '~2.42.1',
+277 silly install resolved        phantomjs: '~1.9.7-1',
+277 silly install resolved        jsmin: '~1.0.1',
+277 silly install resolved        sizzle: '~1.1.0',
+277 silly install resolved        'uglify-js': '~2.4.12' },
+277 silly install resolved     peerDependencies: { 'selenium-webdriver': '>=2.39.0' },
+277 silly install resolved     scripts: { test: './node_modules/mocha/bin/mocha' },
+277 silly install resolved     license: 'MIT',
+277 silly install resolved     _id: 'webdriver-sizzle-promised@2.0.2',
+277 silly install resolved     dist:
+277 silly install resolved      { shasum: 'f4baead1c95e7e9f8d1a03c05c7d732de34e8d5d',
+277 silly install resolved        tarball: 'https://registry.npmjs.org/webdriver-sizzle-promised/-/webdriver-sizzle-promised-2.0.2.tgz' },
+277 silly install resolved     _from: 'webdriver-sizzle-promised@>=2.0.2 <2.1.0',
+277 silly install resolved     _npmVersion: '1.3.6',
+277 silly install resolved     _npmUser: { name: 'b3nj4m', email: 'ben.robbins@gmail.com' },
+277 silly install resolved     maintainers: [ [Object] ],
+277 silly install resolved     directories: {},
+277 silly install resolved     _shasum: 'f4baead1c95e7e9f8d1a03c05c7d732de34e8d5d',
+277 silly install resolved     _resolved: 'https://registry.npmjs.org/webdriver-sizzle-promised/-/webdriver-sizzle-promised-2.0.2.tgz',
+277 silly install resolved     readme: 'ERROR: No README data found!' } ]
+278 info install q@1.1.2 into /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+279 info install webdriver-sizzle-promised@2.0.2 into /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+280 info installOne q@1.1.2
+281 verbose installOne of q to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised not in flight; installing
+282 verbose correctMkdir /Users/Carlos/.npm/_locks correctMkdir not in flight; initializing
+283 info installOne webdriver-sizzle-promised@2.0.2
+284 verbose installOne of webdriver-sizzle-promised to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised not in flight; installing
+285 verbose correctMkdir /Users/Carlos/.npm/_locks correctMkdir not in flight; initializing
+286 verbose lock using /Users/Carlos/.npm/_locks/webdriver-sizzle-promise-04d343ee8b2c0a1e.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+287 verbose lock using /Users/Carlos/.npm/_locks/q-2e328f68e767dd6b.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+288 silly install write writing webdriver-sizzle-promised 2.0.2 to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+289 silly install write writing q 1.1.2 to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+290 verbose unbuild node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+291 verbose unbuild node_modules/chai-webdriver-promised/node_modules/q
+292 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised is being purged from base /Users/Carlos/MakersAcademy/Week-6/makersbnb/app
+293 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+294 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q is being purged from base /Users/Carlos/MakersAcademy/Week-6/makersbnb/app
+295 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+296 verbose tar unpack /Users/Carlos/.npm/webdriver-sizzle-promised/2.0.2/package.tgz
+297 verbose tar unpacking to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+298 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised is being purged
+299 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+300 verbose tar unpack /Users/Carlos/.npm/q/1.1.2/package.tgz
+301 verbose tar unpacking to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+302 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q is being purged
+303 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+304 silly gunzTarPerm modes [ '755', '644' ]
+305 silly gunzTarPerm modes [ '755', '644' ]
+306 silly gunzTarPerm extractEntry package.json
+307 silly gunzTarPerm extractEntry package.json
+308 silly gunzTarPerm extractEntry .npmignore
+309 silly gunzTarPerm extractEntry README.md
+310 silly gunzTarPerm extractEntry README.md
+311 silly gunzTarPerm extractEntry LICENSE
+312 silly gunzTarPerm extractEntry LICENSE
+313 silly gunzTarPerm extractEntry index.js
+314 silly gunzTarPerm extractEntry q.js
+315 silly gunzTarPerm extractEntry queue.js
+316 silly gunzTarPerm extractEntry .editorconfig
+317 silly gunzTarPerm extractEntry lib/sizzle.min.js
+318 silly gunzTarPerm extractEntry lib/webdriver_sizzle.js
+319 silly gunzTarPerm extractEntry scripts/minify.js
+320 silly gunzTarPerm extractEntry test/webdriver_sizzle.test.js
+321 silly gunzTarPerm extractEntry test/finnegan.html
+322 silly gunzTarPerm extractEntry test/mocha.opts
+323 verbose write writing to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q/package.json
+324 info preinstall q@1.1.2
+325 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q/package.json
+326 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q/package.json
+327 silly install resolved []
+328 verbose about to build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+329 info build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+330 info linkStuff q@1.1.2
+331 silly linkStuff q@1.1.2 has /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules as its parent node_modules
+332 verbose linkBins q@1.1.2
+333 verbose linkMans q@1.1.2
+334 verbose rebuildBundles q@1.1.2
+335 info install q@1.1.2
+336 info postinstall q@1.1.2
+337 verbose unlock done using /Users/Carlos/.npm/_locks/q-2e328f68e767dd6b.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/q
+338 verbose write writing to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/package.json
+339 info preinstall webdriver-sizzle-promised@2.0.2
+340 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/package.json
+341 silly prepareForInstallMany adding underscore@~1.6.0 from webdriver-sizzle-promised dependencies
+342 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/package.json
+343 silly cache add args [ 'underscore@~1.6.0', null ]
+344 verbose cache add spec underscore@~1.6.0
+345 silly cache add parsed spec Result {
+345 silly cache add   raw: 'underscore@~1.6.0',
+345 silly cache add   scope: null,
+345 silly cache add   name: 'underscore',
+345 silly cache add   rawSpec: '~1.6.0',
+345 silly cache add   spec: '>=1.6.0 <1.7.0',
+345 silly cache add   type: 'range' }
+346 silly addNamed underscore@>=1.6.0 <1.7.0
+347 verbose addNamed ">=1.6.0 <1.7.0" is a valid semver range for underscore
+348 silly addNameRange { name: 'underscore', range: '>=1.6.0 <1.7.0', hasData: false }
+349 silly mapToRegistry name underscore
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry https://registry.npmjs.org/
+352 silly mapToRegistry data Result {
+352 silly mapToRegistry   raw: 'underscore',
+352 silly mapToRegistry   scope: null,
+352 silly mapToRegistry   name: 'underscore',
+352 silly mapToRegistry   rawSpec: '',
+352 silly mapToRegistry   spec: 'latest',
+352 silly mapToRegistry   type: 'tag' }
+353 silly mapToRegistry uri https://registry.npmjs.org/underscore
+354 verbose addNameRange registry:https://registry.npmjs.org/underscore not in flight; fetching
+355 verbose request uri https://registry.npmjs.org/underscore
+356 verbose request no auth needed
+357 info attempt registry request try #1 at 10:16:38 AM
+358 verbose etag "BR0DCEEB0ZOYK9C7WKZWPTB9"
+359 http request GET https://registry.npmjs.org/underscore
+360 http 304 https://registry.npmjs.org/underscore
+361 verbose headers { date: 'Wed, 29 Jun 2016 09:16:39 GMT',
+361 verbose headers   via: '1.1 varnish',
+361 verbose headers   'cache-control': 'max-age=300',
+361 verbose headers   etag: '"BR0DCEEB0ZOYK9C7WKZWPTB9"',
+361 verbose headers   age: '78',
+361 verbose headers   connection: 'keep-alive',
+361 verbose headers   'x-served-by': 'cache-lhr6337-LHR',
+361 verbose headers   'x-cache': 'HIT',
+361 verbose headers   'x-cache-hits': '3',
+361 verbose headers   'x-timer': 'S1467191799.715279,VS0,VE0',
+361 verbose headers   vary: 'Accept-Encoding' }
+362 silly get cb [ 304,
+362 silly get   { date: 'Wed, 29 Jun 2016 09:16:39 GMT',
+362 silly get     via: '1.1 varnish',
+362 silly get     'cache-control': 'max-age=300',
+362 silly get     etag: '"BR0DCEEB0ZOYK9C7WKZWPTB9"',
+362 silly get     age: '78',
+362 silly get     connection: 'keep-alive',
+362 silly get     'x-served-by': 'cache-lhr6337-LHR',
+362 silly get     'x-cache': 'HIT',
+362 silly get     'x-cache-hits': '3',
+362 silly get     'x-timer': 'S1467191799.715279,VS0,VE0',
+362 silly get     vary: 'Accept-Encoding' } ]
+363 verbose etag https://registry.npmjs.org/underscore from cache
+364 verbose get saving underscore to /Users/Carlos/.npm/registry.npmjs.org/underscore/.cache.json
+365 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+366 silly addNameRange number 2 { name: 'underscore', range: '>=1.6.0 <1.7.0', hasData: true }
+367 silly addNameRange versions [ 'underscore',
+367 silly addNameRange   [ '1.0.3',
+367 silly addNameRange     '1.0.4',
+367 silly addNameRange     '1.1.0',
+367 silly addNameRange     '1.1.1',
+367 silly addNameRange     '1.1.2',
+367 silly addNameRange     '1.1.3',
+367 silly addNameRange     '1.1.4',
+367 silly addNameRange     '1.1.5',
+367 silly addNameRange     '1.1.6',
+367 silly addNameRange     '1.1.7',
+367 silly addNameRange     '1.2.0',
+367 silly addNameRange     '1.2.1',
+367 silly addNameRange     '1.2.2',
+367 silly addNameRange     '1.2.3',
+367 silly addNameRange     '1.2.4',
+367 silly addNameRange     '1.3.0',
+367 silly addNameRange     '1.3.1',
+367 silly addNameRange     '1.3.2',
+367 silly addNameRange     '1.3.3',
+367 silly addNameRange     '1.4.0',
+367 silly addNameRange     '1.4.1',
+367 silly addNameRange     '1.4.2',
+367 silly addNameRange     '1.4.3',
+367 silly addNameRange     '1.4.4',
+367 silly addNameRange     '1.5.0',
+367 silly addNameRange     '1.5.1',
+367 silly addNameRange     '1.5.2',
+367 silly addNameRange     '1.6.0',
+367 silly addNameRange     '1.7.0',
+367 silly addNameRange     '1.8.0',
+367 silly addNameRange     '1.8.1',
+367 silly addNameRange     '1.8.2',
+367 silly addNameRange     '1.8.3' ] ]
+368 silly addNamed underscore@1.6.0
+369 verbose addNamed "1.6.0" is a plain semver version for underscore
+370 silly cache afterAdd underscore@1.6.0
+371 verbose afterAdd /Users/Carlos/.npm/underscore/1.6.0/package/package.json not in flight; writing
+372 verbose correctMkdir /Users/Carlos/.npm correctMkdir not in flight; initializing
+373 verbose afterAdd /Users/Carlos/.npm/underscore/1.6.0/package/package.json written
+374 silly install resolved [ { name: 'underscore',
+374 silly install resolved     description: 'JavaScript\'s functional programming helper library.',
+374 silly install resolved     homepage: 'http://underscorejs.org',
+374 silly install resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+374 silly install resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+374 silly install resolved     repository:
+374 silly install resolved      { type: 'git',
+374 silly install resolved        url: 'git://github.com/jashkenas/underscore.git' },
+374 silly install resolved     main: 'underscore.js',
+374 silly install resolved     version: '1.6.0',
+374 silly install resolved     devDependencies: { docco: '0.6.x', phantomjs: '1.9.0-1', 'uglify-js': '2.4.x' },
+374 silly install resolved     scripts:
+374 silly install resolved      { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true',
+374 silly install resolved        build: 'uglifyjs underscore.js -c "evaluate=false" --comments "/    .*/" -m --source-map underscore-min.map -o underscore-min.js',
+374 silly install resolved        doc: 'docco underscore.js' },
+374 silly install resolved     licenses: [ [Object] ],
+374 silly install resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+374 silly install resolved     bugs: { url: 'https://github.com/jashkenas/underscore/issues' },
+374 silly install resolved     _id: 'underscore@1.6.0',
+374 silly install resolved     dist:
+374 silly install resolved      { shasum: '8b38b10cacdef63337b8b24e4ff86d45aea529a8',
+374 silly install resolved        tarball: 'https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz' },
+374 silly install resolved     _from: 'underscore@>=1.6.0 <1.7.0',
+374 silly install resolved     _npmVersion: '1.3.21',
+374 silly install resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+374 silly install resolved     maintainers: [ [Object] ],
+374 silly install resolved     directories: {},
+374 silly install resolved     _shasum: '8b38b10cacdef63337b8b24e4ff86d45aea529a8',
+374 silly install resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz',
+374 silly install resolved     readme: 'ERROR: No README data found!' } ]
+375 info install underscore@1.6.0 into /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+376 info installOne underscore@1.6.0
+377 verbose installOne of underscore to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised not in flight; installing
+378 verbose correctMkdir /Users/Carlos/.npm/_locks correctMkdir not in flight; initializing
+379 verbose lock using /Users/Carlos/.npm/_locks/underscore-5b91137d57feedcf.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+380 silly install write writing underscore 1.6.0 to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+381 verbose unbuild node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+382 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore is being purged from base /Users/Carlos/MakersAcademy/Week-6/makersbnb/app
+383 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+384 verbose tar unpack /Users/Carlos/.npm/underscore/1.6.0/package.tgz
+385 verbose tar unpacking to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+386 silly gentlyRm /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore is being purged
+387 verbose gentlyRm don't care about contents; nuking /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+388 silly gunzTarPerm modes [ '755', '644' ]
+389 silly gunzTarPerm extractEntry package.json
+390 silly gunzTarPerm extractEntry README.md
+391 silly gunzTarPerm extractEntry LICENSE
+392 silly gunzTarPerm extractEntry underscore-min.js
+393 silly gunzTarPerm extractEntry underscore.js
+394 verbose write writing to /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore/package.json
+395 info preinstall underscore@1.6.0
+396 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore/package.json
+397 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore/package.json
+398 silly install resolved []
+399 verbose about to build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+400 info build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+401 info linkStuff underscore@1.6.0
+402 silly linkStuff underscore@1.6.0 has /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules as its parent node_modules
+403 verbose linkBins underscore@1.6.0
+404 verbose linkMans underscore@1.6.0
+405 verbose rebuildBundles underscore@1.6.0
+406 info install underscore@1.6.0
+407 info postinstall underscore@1.6.0
+408 verbose unlock done using /Users/Carlos/.npm/_locks/underscore-5b91137d57feedcf.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised/node_modules/underscore
+409 verbose about to build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+410 info build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+411 info linkStuff webdriver-sizzle-promised@2.0.2
+412 silly linkStuff webdriver-sizzle-promised@2.0.2 has /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules as its parent node_modules
+413 verbose linkBins webdriver-sizzle-promised@2.0.2
+414 verbose linkMans webdriver-sizzle-promised@2.0.2
+415 verbose rebuildBundles webdriver-sizzle-promised@2.0.2
+416 verbose rebuildBundles [ 'underscore' ]
+417 info install webdriver-sizzle-promised@2.0.2
+418 info postinstall webdriver-sizzle-promised@2.0.2
+419 verbose unlock done using /Users/Carlos/.npm/_locks/webdriver-sizzle-promise-04d343ee8b2c0a1e.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/node_modules/webdriver-sizzle-promised
+420 verbose about to build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+421 info build /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+422 info linkStuff chai-webdriver-promised@4.0.3
+423 silly linkStuff chai-webdriver-promised@4.0.3 has /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules as its parent node_modules
+424 verbose linkBins chai-webdriver-promised@4.0.3
+425 verbose linkMans chai-webdriver-promised@4.0.3
+426 verbose rebuildBundles chai-webdriver-promised@4.0.3
+427 verbose rebuildBundles [ 'q', 'webdriver-sizzle-promised' ]
+428 info install chai-webdriver-promised@4.0.3
+429 info postinstall chai-webdriver-promised@4.0.3
+430 verbose readDependencies loading dependencies from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/package.json
+431 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/ansi-regex/package.json
+432 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/ansi-styles/package.json
+433 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/argparse/package.json
+434 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/asn1/package.json
+435 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/assert-plus/package.json
+436 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/async/package.json
+437 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/aws-sign2/package.json
+438 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/bl/package.json
+439 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/body-parser/package.json
+440 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/boom/package.json
+441 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/buffer-shims/package.json
+442 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/caseless/package.json
+443 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai/package.json
+444 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-dom/package.json
+445 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-http/package.json
+446 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver/package.json
+447 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised/package.json
+448 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chalk/package.json
+449 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/coffee-script/package.json
+450 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/combined-stream/package.json
+451 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/commander/package.json
+452 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/cookie-parser/package.json
+453 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/core-util-is/package.json
+454 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/coveralls/package.json
+455 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/cryptiles/package.json
+456 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/dashdash/package.json
+457 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/debug/package.json
+458 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/delayed-stream/package.json
+459 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/ecc-jsbn/package.json
+460 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/escape-string-regexp/package.json
+461 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/esprima/package.json
+462 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/exit/package.json
+463 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/express/package.json
+464 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/extend/package.json
+465 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/extsprintf/package.json
+466 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/fileset/package.json
+467 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/forever-agent/package.json
+468 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/form-data/package.json
+469 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/gaze/package.json
+470 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/generate-function/package.json
+471 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/generate-object-property/package.json
+472 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/getpass/package.json
+473 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/glob/package.json
+474 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/graceful-readlink/package.json
+475 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/growl/package.json
+476 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/har-validator/package.json
+477 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/has-ansi/package.json
+478 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/hawk/package.json
+479 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/hoek/package.json
+480 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/http-signature/package.json
+481 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/inherits/package.json
+482 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/is-my-json-valid/package.json
+483 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/is-property/package.json
+484 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/is-typedarray/package.json
+485 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/isarray/package.json
+486 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/isstream/package.json
+487 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jade/package.json
+488 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine/package.json
+489 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-core/package.json
+490 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-growl-reporter/package.json
+491 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-node/package.json
+492 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jasmine-reporters/package.json
+493 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jodid25519/package.json
+494 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/js-yaml/package.json
+495 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jsbn/package.json
+496 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/json-schema/package.json
+497 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/json-stringify-safe/package.json
+498 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jsonpointer/package.json
+499 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/jsprim/package.json
+500 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/lcov-parse/package.json
+501 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/log-driver/package.json
+502 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/lru-cache/package.json
+503 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mime-db/package.json
+504 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mime-types/package.json
+505 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/minimatch/package.json
+506 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/minimist/package.json
+507 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mkdirp/package.json
+508 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mocha/package.json
+509 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/mongodb/package.json
+510 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/monk/package.json
+511 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/morgan/package.json
+512 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/node-uuid/package.json
+513 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/oauth-sign/package.json
+514 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/pinkie/package.json
+515 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/pinkie-promise/package.json
+516 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/process-nextick-args/package.json
+517 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/qs/package.json
+518 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/readable-stream/package.json
+519 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/request/package.json
+520 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/requirejs/package.json
+521 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/selenium-webdriver/package.json
+522 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/serve-favicon/package.json
+523 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/sigmund/package.json
+524 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/sntp/package.json
+525 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/sshpk/package.json
+526 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/string_decoder/package.json
+527 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/stringstream/package.json
+528 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/strip-ansi/package.json
+529 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/supports-color/package.json
+530 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/tough-cookie/package.json
+531 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/tunnel-agent/package.json
+532 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/tweetnacl/package.json
+533 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/underscore/package.json
+534 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/underscore.string/package.json
+535 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/util-deprecate/package.json
+536 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/verror/package.json
+537 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/walkdir/package.json
+538 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/xtend/package.json
+539 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/cake/package.json
+540 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/coffee/package.json
+541 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/coveralls/package.json
+542 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/esparse/package.json
+543 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/esvalidate/package.json
+544 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/har-validator/package.json
+545 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/jade/package.json
+546 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/jasmine/package.json
+547 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/jasmine-node/package.json
+548 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/js-yaml/package.json
+549 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/mocha/package.json
+550 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/r.js/package.json
+551 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/r_js/package.json
+552 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/sshpk-conv/package.json
+553 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/sshpk-sign/package.json
+554 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/sshpk-verify/package.json
+555 verbose targetResolver reading package data from /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/.bin/uuid/package.json
+556 verbose already installed skipping chai@1.x /Users/Carlos/MakersAcademy/Week-6/makersbnb/app
+557 silly install resolved []
+558 verbose unlock done using /Users/Carlos/.npm/_locks/chai-webdriver-promised-29fe26525d9c5729.lock for /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/node_modules/chai-webdriver-promised
+559 verbose validateInstall loading /Users/Carlos/MakersAcademy/Week-6/makersbnb/app/package.json for validation
+560 verbose stack Error: The package chai@3.5.0 does not satisfy its siblings' peerDependencies requirements!
+560 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+560 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+560 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+560 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+560 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+560 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+560 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+560 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+560 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+560 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+561 verbose cwd /Users/Carlos/MakersAcademy/Week-6/makersbnb/app
+562 error Darwin 15.5.0
+563 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "chai-webdriver-promised" "--save"
+564 error node v4.4.6
+565 error npm  v2.15.5
+566 error code EPEERINVALID
+567 error peerinvalid The package chai@3.5.0 does not satisfy its siblings' peerDependencies requirements!
+567 error peerinvalid Peer chai-webdriver@1.2.0 wants chai@>= 1 < 4
+567 error peerinvalid Peer chai-webdriver-promised@4.0.3 wants chai@1.x
+568 verbose exit [ 1, true ]

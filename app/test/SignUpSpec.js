@@ -3,8 +3,11 @@ var request = require('request');
 var chai = require('chai');
 var chaiHTTP = require('chai-http');
 var app = require('../app');
+var chaiDOM = require('chai-dom');
 
 chai.use(chaiHTTP);
+chai.use(chaiDOM);
+
 
 describe("Sign Up Functionality", function(){
 
@@ -17,7 +20,7 @@ describe("Sign Up Functionality", function(){
     });
     it("expects welcome message", function(done){
       chai.request(app).get('/users/new').end(function(err, res, body){
-        expect(body).to.contain("Please enter your details below");
+        expect(document.getElementById('form-head')).to.contain("Please enter your details below");
         done();
       });
     });
