@@ -2,11 +2,14 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/spaces/new', function(req, res, next) {
-  res.render('new');
+  res.render('new-space');
 });
 
 router.get('/spaces', function(req, res, next) {
-  res.send('hi stranger');
+  var db = req.db;
+  var spaces = db.get('spacecollection');
+  spaces.find({}).then((docs) => {console.log(docs);});
+  res.render('spaces');
 });
 
 router.post('/spaces/new', function(req, res, next) {
