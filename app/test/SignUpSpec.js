@@ -20,7 +20,15 @@ describe("Sign Up Functionality", function(){
     });
     it("expects welcome message", function(done){
       chai.request(app).get('/users/new').end(function(err, res, body){
-        expect(document.getElementById('form-head')).to.contain("Please enter your details below");
+        console.log("===========================")
+        console.log(err);
+        console.log("===========================")
+        console.log(res);
+        console.log("===========================")
+        console.log(body);
+        console.log("===========================")
+        var document = res;
+        expect(document).to.have.html('Please enter your details below');
         done();
       });
     });
