@@ -34,7 +34,30 @@ describe('Listing Spaces', function() {
     });
 
     it('displays the newly entered space title and description', function(){
-      this.browser.assert.text('#container:nth-child(1)', 'Cozy loft So cozy');
+      this.browser.assert.text('li:nth-child(1)', 'Cozy loft So cozy');
+    });
+
+    describe('second space', function(){
+      
+      before(function(done) {
+        this.browser.visit('/spaces/new', done);
+      });
+
+      before(function(done) {
+        this.browser
+          .fill('spacename', 'Cozy loft')
+          .fill('description', 'Super cozy')
+          .fill('price_per_night', '3000')
+          .fill('available_from', '01/01/17')
+          .fill('available_to', '01/01/18')
+          .pressButton('List my Space', done);
+      });
+
+      it('displays the newly entered space title and description', function(){
+        this.browser.assert.text('li:nth-child(1)', 'Cozy loft So cozy');
+        this.browser.assert.element('li:nth-child(2)', null);
+      });
+
     });
   });
 
@@ -44,7 +67,6 @@ describe('Listing Spaces', function() {
       .drop(function(err) {
         if(err) return done(err);
       });
-    console.log('???????????????yep, got to here');
     this.server.close(done);
   });
 });

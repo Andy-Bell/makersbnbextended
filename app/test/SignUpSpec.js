@@ -86,7 +86,6 @@ describe("Sign Up Functionality", function(){
     monk('localhost:27017/makersbnb' + environment)
       .get('users')
       .drop(function(err) {
-        console.log('===============yep, got to here');
         if(err) return done(err);
       });
     this.server.close(done);
