@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+  h1(class="title") Book a Space
+  ul
+    each space, i in spacesList
+      li #{space.spacename}
+        li #{space.price_per_night} #{space.available_from} #{space.available_to}
