@@ -20,7 +20,7 @@ router.post('/new', function(req, res, next) {
   var spaces = db.get('spacecollection');
   var space = {
     spacename: req.body.spacename,
-    // owner_id:
+    // owner_id: need to add this when 
     description: req.body.description,
     price_per_night: req.body.price_per_night,
     available_from: req.body.available_from,

@@ -28,8 +28,8 @@ describe('Listing Spaces', function() {
       this.browser.assert.url({ pathname: '/spaces' });
     });
 
-    it('displays the newly entered space', function(){
-      this.browser.assert.text('ul li:nth-child(1)', 'Cozy loft');
+    xit('displays the newly entered space title and description', function(){
+      this.browser.assert.text('#container:nth-child(1)', 'Cozy loft So cozy');
     });
 
   });
