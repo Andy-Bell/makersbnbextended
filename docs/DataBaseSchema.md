@@ -8,7 +8,7 @@
 }
 
 {(space)
-  SpaceName: ‘space 1’;
+  SpaceName: ‘space 1’ — to be unique ;
   Owner_id: user_id;
   SpaceDescription: ‘cosy cellar’;
   Price: 55;
