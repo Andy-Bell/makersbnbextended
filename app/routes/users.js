@@ -1,7 +1,8 @@
+environment = process.env.NODE_ENV || 'development';
 var express = require('express');
 var router = express.Router();
 var monk = require('monk');
-var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
+var db = monk('localhost:27017/makersbnb' + environment);
 var users  = db.get('users');
 users.index('username', {unique: true});
 
