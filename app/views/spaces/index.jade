@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+  h1(class="title") Book a Space
+    each space, i in spacesList
+      #container.space
+        #spaceTitle.h4 #{space.spacename}
+        #spaceDescription.h5 #{space.description}

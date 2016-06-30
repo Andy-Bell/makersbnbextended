@@ -1,4 +1,4 @@
-process.env.NODE_ENV = process.env.NODE_ENV || "development"
+environment = process.env.NODE_ENV || 'development';
 
 var express = require('express');
 var path = require('path');
@@ -10,10 +10,11 @@ var bodyParser = require('body-parser');
 
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
+var db = monk('localhost:27017/makersbnb' + environment);
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var spaces = require('./routes/spaces');
 
 var app = express();
 
@@ -37,6 +38,7 @@ app.use(function(req,res,next){
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/spaces', spaces);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

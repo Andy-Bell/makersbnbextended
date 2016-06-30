@@ -6,3 +6,19 @@ body {
 a {
   color: #00B7FF;
 }
+
+.title {
+  color: #FF0000;
+}
+
+.spaceTitle{
+
+}
+
+.spaceDescription{
+
+}
+
+.space{
+  border: solid 2px black;
+}
