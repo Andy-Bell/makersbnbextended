@@ -52,7 +52,26 @@ describe("Sign Up Functionality", function(){
       this.browser.assert.text('#username', 'tester');
     });
 
+    describe('test multiple data entries', function() {
 
+      before(function(done){
+        this.browser.visit('/users/new', done);
+      });
+
+      before(function(done){
+        this.browser
+          .fill('email', 'lil@lol.com')
+          .fill('fullName', 'gigi')
+          .fill('username', 'tester')
+          .pressButton('submit', done);
+      });
+
+      it('does not write second user if username is existing', function(){
+        this.browser.assert.text('#email', 'test@test.com');
+        this.browser.assert.text('#fullName', 'Test');
+        this.browser.assert.text('#username', 'tester');
+      });
+    });
   });
 
 
