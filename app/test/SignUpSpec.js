@@ -1,4 +1,8 @@
-process.env.NODE_ENV = 'test';
+process.env.NODE_ENV = "test";
+environment = 'test';
+
+
+const monk = require('monk');
 const Browser = require('zombie');
 const app = require('../app');
 const http = require('http');
@@ -11,9 +15,11 @@ describe("Sign Up Functionality", function(){
   });
 
   describe("checks the page",function(){
+
     before(function(done){
       this.browser.visit('/users/new', done);
     });
+
     it("expects welcome message", function(){
       this.browser.assert.text('#form-head', 'Please enter your details');
     });
@@ -30,6 +36,7 @@ describe("Sign Up Functionality", function(){
   });
 
   describe("expect a successful submission", function(){
+
     before(function(done){
       this.browser.visit('/users/new', done);
     });
@@ -76,6 +83,12 @@ describe("Sign Up Functionality", function(){
 
 
   after(function(done){
+    monk('localhost:27017/makersbnb' + environment)
+      .get('users')
+      .drop(function(err) {
+        console.log('===============yep, got to here');
+        if(err) return done(err);
+      });
     this.server.close(done);
   });
 });

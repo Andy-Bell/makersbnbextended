@@ -1,8 +1,9 @@
+environment = process.env.NODE_ENV || 'development';
 var monk = require('monk');
 var db = monk('localhost:27017/makersbnb' + environment);
 var express = require('express');
 var router = express.Router();
-var spaces = db.get('spacecollection');
+var spaces = db.get('spaces');
 
 router.get('/new', function(req, res, next) {
   res.render('spaces/new');

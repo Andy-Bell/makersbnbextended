@@ -34,12 +34,3 @@ router.post('/new', function(req, res) {
 });
 
 module.exports = router;
-
-
-
-// router.get('/get-data', function(req, res, next) {
-//   var data = userData.find({});
-//   data.on('success', function(docs) {
-//     res.render('index', {items: docs});
-//   });
-// });
