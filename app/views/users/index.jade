@@ -2,8 +2,8 @@ extends ../layout
 
 block content
   h1 #{title}
-  #userDetails
-  p
-    p= data.username
-    p= data.fullName
-    p= console.log(data)
+  section(id='userDetails')
+    p
+      p(id='username') #{data.username}
+      p(id='fullName') #{data.fullName}
+      p(id='email') #{data.email}

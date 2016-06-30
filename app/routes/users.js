@@ -1,17 +1,18 @@
 var express = require('express');
 var router = express.Router();
 var monk = require('monk');
-//var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
-//var users  = db.get('users');
-
+var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
+var users  = db.get('users');
+users.index('username', {unique: true});
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  var db = req.db;
-  var users = db.get('users');
   var data = users.find({});
   data.on('success', function(docs){
-    res.render('users/index', { title: 'Welcome', data: docs.last});
+    res.render('users/index', { 
+      title: 'Welcome', 
+      data: docs.pop()
+      });
   });
 });
 
@@ -21,8 +22,6 @@ router.get('/new', function(req, res) {
 });
 
 router.post('/new', function(req, res) {
-  var db = req.db;
-  var users = db.get('users');
   var user = {
       username: req.body.username,
       fullName: req.body.fullName,

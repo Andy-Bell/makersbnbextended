@@ -47,9 +47,9 @@ describe("Sign Up Functionality", function(){
     });
 
     it('presents welcome page', function(){
-      this.browser.assert.text('#userDetails', 'test@test.com');
-      this.browser.assert.text('#userDetails', 'Test');
-      this.browser.assert.text('#userDetails', 'tester');
+      this.browser.assert.text('#email', 'test@test.com');
+      this.browser.assert.text('#fullName', 'Test');
+      this.browser.assert.text('#username', 'tester');
     });
 
 
