@@ -1,7 +1,16 @@
 #Maker BnB project
 [![Build Status](https://travis-ci.org/Andy-Bell/makersbnb.svg?branch=master)](https://travis-ci.org/Andy-Bell/makersbnb) [![Coverage Status](https://coveralls.io/repos/github/Andy-Bell/makersbnb/badge.svg?branch=master)](https://coveralls.io/github/Andy-Bell/makersbnb?branch=master)
 
-Description of app goes here.
+This project is the result of one week's work between four people who were
+completely new to the technologies involved. It is currently unfinished, 
+but we feel we have learned a lot in the process of making it.
+
+Made as part of the course at [Makers Academy] (www.makersacademy.com).
+
+###App Description
+
+A web application that allows users to list spaces they have available, and to 
+hire spaces for the night.
 
 ###Styleguide
 For contributors, we would like to use [this styleguide] (https://github.com/airbnb/javascript) to achieve code consistency.
@@ -13,4 +22,5 @@ These are based on the initial [brief] (https://github.com/makersacademy/course/
 All tests throughout the stack will be done in [Jasmine 2.4.1] (https://github.com/jasmine/jasmine-npm).
 
 ###Technologies
-The application is built using jQuery front end and Node/Express backend, running with a MongoDB database.
+The application is built using jQuery front end and Node/Express backend, 
+running with a MongoDB database.
