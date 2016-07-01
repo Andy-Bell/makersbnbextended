@@ -34,7 +34,7 @@ describe('Listing Spaces', function() {
     });
 
     it('displays the newly entered space title and description', function(){
-      this.browser.assert.text('li:nth-child(1)', 'Cozy loft So cozy');
+      this.browser.assert.text('#spacelist:nth-child(1)', 'Cozy loft So cozy');
     });
 
     describe('second space', function(){
