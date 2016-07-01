@@ -4,21 +4,25 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #555;
+  text-decoration: none;
 }
 
 .title {
-  color: #FF0000;
-}
-
-.spaceTitle{
-
-}
-
-.spaceDescription{
-
+  color: #000;
 }
 
 .space{
   border: solid 2px black;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+#navigation {
+  display: inline;
+  text-align: right;
+  list-style-type: none;
 }
