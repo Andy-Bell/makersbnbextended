@@ -1,7 +1,8 @@
+environment = process.env.NODE_ENV || 'development';
 var express = require('express');
 var router = express.Router();
 var monk = require('monk');
-var db = monk('localhost:27017/makersbnb' + process.env.NODE_ENV);
+var db = monk('localhost:27017/makersbnb' + environment);
 var users  = db.get('users');
 users.index('username', {unique: true});
 
@@ -27,18 +28,15 @@ router.post('/new', function(req, res) {
       fullName: req.body.fullName,
       email: req.body.email
   };
+  var insert = users.insert(user);
+  insert.on('success', function(){
+    res.redirect('/users');
+  });
+  insert.on('error', function(){
+    console.log("invalid space");
+    res.redirect('/users/new');
+  });
 
-  users.insert(user);
-  res.redirect('/users');
 });
 
 module.exports = router;
-
-
-
-// router.get('/get-data', function(req, res, next) {
-//   var data = userData.find({});
-//   data.on('success', function(docs) {
-//     res.render('index', {items: docs});
-//   });
-// });

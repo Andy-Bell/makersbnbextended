@@ -16,7 +16,8 @@ script.
 
 block content
   h1(class="title") Book a Space
+  ul(id='container')
     each space, i in spacesList
-      #container.space
-        #spaceTitle.h4 #{space.spacename}
-        #spaceDescription.h5 #{space.description}
+      li
+        h4(id='spaceTitle') #{space.spacename} 
+        h5(id='spaceDescription') #{space.description}

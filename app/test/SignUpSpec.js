@@ -1,4 +1,7 @@
-process.env.NODE_ENV = 'test';
+process.env.NODE_ENV = "test";
+environment = 'test';
+
+const monk = require('monk');
 const Browser = require('zombie');
 const app = require('../app');
 const http = require('http');
@@ -12,9 +15,11 @@ describe("Sign Up Functionality", function(){
   });
 
   describe("checks the page",function(){
+
     before(function(done){
       this.browser.visit('/users/new', done);
     });
+
     it("expects welcome message", function(){
       this.browser.assert.text('#form-head', 'Please enter your details');
     });
@@ -31,6 +36,7 @@ describe("Sign Up Functionality", function(){
   });
 
   describe("expect a successful submission", function(){
+
     before(function(done){
       this.browser.visit('/users/new', done);
     });
@@ -52,10 +58,39 @@ describe("Sign Up Functionality", function(){
       this.browser.assert.text('#fullName', 'Test');
       this.browser.assert.text('#username', 'tester');
     });
-  });
 
+    describe('test multiple data entries', function() {
+
+      before(function(done){
+        this.browser.visit('/users/new', done);
+      });
+
+      before(function(done){
+        this.browser
+          .fill('email', 'lil@lol.com')
+          .fill('fullName', 'gigi')
+          .fill('username', 'tester')
+          .pressButton('submit', done);
+      });
+
+      it('redirects back to the create users page', function(){
+        this.browser.assert.url({ pathname: "/users/new"});
+      });
+
+    });
+  });
 
   after(function(done){
-    this.server.close(done);
+    monk('localhost:27017/makersbnb' + environment)
+      .get('users')
+      .drop(function(err) {
+        if(err) throw err;
+        done();
+      });
   });
+
+  after(function(done){
+    this.server.close(done());
+  });
+
 });
