@@ -28,9 +28,15 @@ router.post('/new', function(req, res) {
       fullName: req.body.fullName,
       email: req.body.email
   };
+  var insert = users.insert(user);
+  insert.on('success', function(){
+    res.redirect('/users');
+  });
+  insert.on('error', function(){
+    console.log("invalid space");
+    res.redirect('/users/new');
+  });
 
-  users.insert(user);
-  res.redirect('/users');
 });
 
 module.exports = router;

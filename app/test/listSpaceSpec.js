@@ -53,10 +53,10 @@ describe('Listing Spaces', function() {
           .pressButton('List my Space', done);
       });
 
-      it('displays the newly entered space title and description', function(){
-        this.browser.assert.text('li:nth-child(1)', 'Cozy loft So cozy');
-        this.browser.assert.element('li:nth-child(2)', null);
+      it('redirects back to the create space page', function(){
+        this.browser.assert.url({ pathname: "/spaces/new"});
       });
+
 
     });
   });
@@ -65,8 +65,12 @@ describe('Listing Spaces', function() {
     monk('localhost:27017/makersbnb' + environment)
       .get('spaces')
       .drop(function(err) {
-        if(err) return done(err);
+        if(err) throw err;
+        done();
       });
-    this.server.close(done);
+  });
+
+  after(function(done){
+    this.server.close(done());
   });
 });

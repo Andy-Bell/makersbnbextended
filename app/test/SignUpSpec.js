@@ -73,21 +73,24 @@ describe("Sign Up Functionality", function(){
           .pressButton('submit', done);
       });
 
-      it('does not write second user if username is existing', function(){
-        this.browser.assert.text('#email', 'test@test.com');
-        this.browser.assert.text('#fullName', 'Test');
-        this.browser.assert.text('#username', 'tester');
+      it('redirects back to the create users page', function(){
+        this.browser.assert.url({ pathname: "/users/new"});
       });
+
     });
   });
-
 
   after(function(done){
     monk('localhost:27017/makersbnb' + environment)
       .get('users')
       .drop(function(err) {
-        if(err) return done(err);
+        if(err) throw err;
+        done();
       });
-    this.server.close(done);
   });
+
+  after(function(done){
+    this.server.close(done());
+  });
+
 });
