@@ -13,4 +13,4 @@ These are based on the initial [brief] (https://github.com/makersacademy/course/
 All tests throughout the stack will be done in [Jasmine 2.4.1] (https://github.com/jasmine/jasmine-npm).
 
 ###Technologies
-The application is built using React front end and Node/Express backend, running with a MongoDB database.
+The application is built using jQuery front end and Node/Express backend, running with a MongoDB database.

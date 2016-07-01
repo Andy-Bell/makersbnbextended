@@ -2,7 +2,6 @@
 {(user)
   User: ‘andrea’;
   Username: ‘andreamazza’;  — to be unique  
-  Owned spaces: [space1, space2…];
   Requested spaces: [{<#space1>: dayString}, {<#space>2: dayString} …];
   Booked spaces: [{space: ‘space1’, date: ’date’}, …]; 
 }
