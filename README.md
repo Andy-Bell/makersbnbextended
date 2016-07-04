@@ -19,7 +19,7 @@ For contributors, we would like to use [this styleguide] (https://github.com/air
 These are based on the initial [brief] (https://github.com/makersacademy/course/blob/master/lab_week/makers_bnb_specification.md) and can be found [here] (/docs/UserStories.md).
 
 ###Testing framework
-All tests throughout the stack will be done in [Jasmine 2.4.1] (https://github.com/jasmine/jasmine-npm).
+All tests throughout the stack will be done in [Mocha 2.5.3] (https://mochajs.org/) and [Zombie 4.2.1] (http://zombie.js.org/).
 
 ###Technologies
 The application is built using jQuery front end and Node/Express backend, 
