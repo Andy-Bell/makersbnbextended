@@ -20,13 +20,7 @@ describe('Listing Spaces', function() {
     });
 
     before(function(done) {
-      this.browser
-        .fill('spacename', 'Cozy loft')
-        .fill('description', 'So cozy')
-        .fill('price_per_night', '3000')
-        .fill('available_from', '01/01/17')
-        .fill('available_to', '01/01/18')
-        .pressButton('List my Space', done);
+      fillIn('So cozy', this.browser, done);
     });
 
     it('after submit redirects to -book a space- page', function() {
@@ -38,26 +32,18 @@ describe('Listing Spaces', function() {
     });
 
     describe('second space', function(){
-      
+
       before(function(done) {
         this.browser.visit('/spaces/new', done);
       });
 
       before(function(done) {
-        this.browser
-          .fill('spacename', 'Cozy loft')
-          .fill('description', 'Super cozy')
-          .fill('price_per_night', '3000')
-          .fill('available_from', '01/01/17')
-          .fill('available_to', '01/01/18')
-          .pressButton('List my Space', done);
+        fillIn('Super cozy', this.browser, done);
       });
 
       it('redirects back to the create space page', function(){
         this.browser.assert.url({ pathname: "/spaces/new"});
       });
-
-
     });
   });
 
@@ -74,3 +60,13 @@ describe('Listing Spaces', function() {
     this.server.close(done());
   });
 });
+
+function fillIn(description, browser, done) {
+  browser
+    .fill('spacename', 'Cozy loft')
+    .fill('description', description)
+    .fill('price_per_night', '3000')
+    .fill('available_from', '01/01/17')
+    .fill('available_to', '01/01/18')
+    .pressButton('List my Space', done);
+}

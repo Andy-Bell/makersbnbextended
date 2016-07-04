@@ -76,7 +76,6 @@ describe("Sign Up Functionality", function(){
       it('redirects back to the create users page', function(){
         this.browser.assert.url({ pathname: "/users/new"});
       });
-
     });
   });
 
