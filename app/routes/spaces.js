@@ -11,7 +11,7 @@ router.get('/new', function(req, res, next) {
 });
 
 router.get('/', function(req, res, next) {
-  var data = spaces.find({}); 
+  var data = spaces.find({});
   data.on('success', function(docs) {
     res.render('spaces/index', {
       "spacesList" : docs
@@ -22,7 +22,6 @@ router.get('/', function(req, res, next) {
 router.post('/new', function(req, res, next) {
   var space = {
     spacename: req.body.spacename,
-    // owner_id: need to add this when 
     description: req.body.description,
     price_per_night: req.body.price_per_night,
     available_from: req.body.available_from,
