@@ -1,9 +1,8 @@
 #Maker BnB project
 [![Build Status](https://travis-ci.org/Andy-Bell/makersbnb.svg?branch=master)](https://travis-ci.org/Andy-Bell/makersbnb) [![Coverage Status](https://coveralls.io/repos/github/Andy-Bell/makersbnb/badge.svg?branch=master)](https://coveralls.io/github/Andy-Bell/makersbnb?branch=master)
 
-This project is the result of one week's work between four people who were
-completely new to the technologies involved. It is currently unfinished, 
-but we feel we have learned a lot in the process of making it.
+After much deliberation I feel the technologies selected for this project were not suitable for the task in question. This project is being paused and will likely be completely restarted in the future, with a database that is definitely relational for starters.
+
 
 Made as part of the course at [Makers Academy] (www.makersacademy.com).
 
